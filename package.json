@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/pg": "^8.11.10",
+    "drizzle-kit": "^0.26.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@wesleytodd/openapi": "^1.1.0",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.35.2",
+    "express": "^4.21.1",
+    "pg": "^8.13.0"
+  }
+}
